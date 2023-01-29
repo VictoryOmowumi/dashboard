@@ -1,0 +1,24 @@
+:root {
+  --white: #fafafa;
+  --dark-blue: #044BD9;
+  --blue: #3084F2;
+  --light-blue: #4B94F2;
+  --sky: #91BBF2;
+  --gray: #e2e1e1;
+  --dark-gray: #a9a9a9;
+  --black: #474747;
+}
+
+.chart {
+  flex: 4;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: var(--gray);
+}
+.chart .title {
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.chart .chartGrid {
+  stroke: rgba(226, 225, 225, 0.5921568627);
+}/*# sourceMappingURL=chart.css.map */

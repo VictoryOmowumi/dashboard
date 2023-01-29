@@ -1,0 +1,17 @@
+:root {
+  --white: #fafafa;
+  --dark-blue: #044BD9;
+  --blue: #3084F2;
+  --light-blue: #4B94F2;
+  --sky: #91BBF2;
+  --gray: #e2e1e1;
+  --dark-gray: #a9a9a9;
+  --black: #474747;
+}
+
+.list {
+  display: flex;
+}
+.list .listContainer {
+  flex: 6;
+}/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,113 @@
+:root {
+    --white: #fafafa;
+    --dark-blue: #044BD9;
+    --blue: #3084F2;
+    --light-blue: #4B94F2;
+    --sky: #91BBF2;
+    --gray: #e2e1e1;
+    --dark-gray: #a9a9a9;
+    --black: #474747;
+    
+  }
+
+  .new{
+    display: flex;
+    width: 100%;
+
+    .newContainer{
+        flex:6;
+
+        .top, .bottom{
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+            display: flex;
+
+            
+            .title{
+                font-size: 20px;
+                font-weight: 600;
+                color: var(--dark-gray);
+            }
+            .left{
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                margin: auto;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-bottom: 10px;
+
+                }
+                label{
+                    display: flex;
+                    align-items: center;
+                    gap:10px;
+
+                    .icon{
+                        font-size: 25px;
+                        color: var(--black);
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+
+                form{
+                    display: flex;
+                    flex-wrap:wrap;
+                    gap: 25px;
+                    justify-content: space-around;
+                    .formInput{
+                        width: 40%;
+
+                        label{
+                            display: flex;
+                            align-items: center;
+                            gap:20px;
+
+                            .icon{
+                                font-size: 25px;
+                                color: var(--black);
+                            }
+                        }
+                        input{
+                            width: 100%;
+                            padding: 10px;
+                            border: none;
+                            border-bottom: 1px solid var(--gray);
+                            outline: none;
+                            font-size: 16px;
+                            color: var(--black);
+                        }
+                    }
+                    button{
+                        width: 300px;
+                        padding: 10px;
+                        border: none;
+                        background-color: var(--blue);
+                        color: var(--white);
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        border-radius: 5px;
+
+                        &:hover{
+                            background-color: var(--dark-blue);
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+  }

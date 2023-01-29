@@ -1,0 +1,101 @@
+:root {
+  --white: #fafafa;
+  --dark-blue: #044BD9;
+  --blue: #3084F2;
+  --light-blue: #4B94F2;
+  --sky: #91BBF2;
+  --gray: #e2e1e1;
+  --dark-gray: #a9a9a9;
+  --black: #474747;
+}
+
+.new {
+  display: flex;
+  width: 100%;
+}
+.new .newContainer {
+  flex: 6;
+}
+.new .newContainer .top, .new .newContainer .bottom {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.new .newContainer .top .title, .new .newContainer .bottom .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+.new .newContainer .top .left, .new .newContainer .bottom .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.new .newContainer .top .left img, .new .newContainer .bottom .left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+.new .newContainer .top .left label, .new .newContainer .bottom .left label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.new .newContainer .top .left label .icon, .new .newContainer .bottom .left label .icon {
+  font-size: 25px;
+  color: var(--black);
+}
+.new .newContainer .top .right, .new .newContainer .bottom .right {
+  flex: 2;
+}
+.new .newContainer .top .right form, .new .newContainer .bottom .right form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+}
+.new .newContainer .top .right form .formInput, .new .newContainer .bottom .right form .formInput {
+  width: 40%;
+}
+.new .newContainer .top .right form .formInput label, .new .newContainer .bottom .right form .formInput label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.new .newContainer .top .right form .formInput label .icon, .new .newContainer .bottom .right form .formInput label .icon {
+  font-size: 25px;
+  color: var(--black);
+}
+.new .newContainer .top .right form .formInput input, .new .newContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  outline: none;
+  font-size: 16px;
+  color: var(--black);
+}
+.new .newContainer .top .right form button, .new .newContainer .bottom .right form button {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.new .newContainer .top .right form button:hover, .new .newContainer .bottom .right form button:hover {
+  background-color: var(--dark-blue);
+}/*# sourceMappingURL=new.css.map */

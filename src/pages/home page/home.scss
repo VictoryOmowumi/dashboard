@@ -1,0 +1,39 @@
+:root {
+    --white: #fafafa;
+    --dark-blue: #044BD9;
+    --blue: #3084F2;
+    --light-blue: #4B94F2;
+    --sky: #91BBF2;
+    --gray: #e2e1e1;
+    --dark-gray: #a9a9a9;
+    --black: #474747;
+    
+  }
+.home{
+    display: flex;
+
+    .homeContainer{
+        flex: 6;
+
+        .widgets, .charts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .charts{
+            padding: 5px 20px;
+        }
+        .listContainer{
+            padding: 20px;
+            margin: 20px;
+            box-shadow:2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+            .listTitle{
+                margin-bottom: 15px;
+                font-weight: 600;
+                color: var(--black);
+            }
+        }
+    }
+
+}
