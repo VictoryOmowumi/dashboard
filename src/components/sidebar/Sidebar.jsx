@@ -53,7 +53,7 @@ const Sidebar = () => {
                 </li>
                 <p className="title">Others</p>
                 <li> 
-                <ImStatsBars className="icon" />
+                {/* <ImStatsBars className="icon" /> */}
                 <span>Stats</span>
                 </li>
                 <li> 
@@ -66,7 +66,7 @@ const Sidebar = () => {
                 <span>System Health</span>
                 </li>
                 <li> 
-                <IoLogoBuffer className="icon" />
+                {/* <IoLogoBuffer className="icon" /> */}
                 <span>Logs</span>
                 </li>
                 <li> 
